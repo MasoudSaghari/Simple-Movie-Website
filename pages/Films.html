@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>گنجینه سینما</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../Styles/style.css" />
+    <link rel="stylesheet" href="../Styles/style2.css" />
+  </head>
+  <body>
+    <!-- Header SECTION -->
+    <header>
+      <ul>
+        <li>
+          <a href="../Home.html"><i class="fa-solid fa-house"></i>خانه</a>
+        </li>
+        <li>
+          <a href="./Films.html"><i class="fa-solid fa-film"></i>فیلم ها</a>
+        </li>
+      </ul>
+    </header>
+
+    <!-- Trending Films -->
+          <div class="trending-container">
+      <div class="trending-title">پر بازدید ترین فیلم ها</div>
+
+      <button class="nav-btn prev-btn" onclick="scrollRow(-1)">&#10095;</button>
+
+      <div class="trending-row" id="trendingRow">
+             <div class="trending-card" style="background-image: url(&quot;../images/Film-1.jpg&quot;)">1</div>
+             <div class="trending-card" style="background-image: url(&quot;../images/Film-2.jpg&quot;)">2</div>
+             <div class="trending-card" style="background-image: url(&quot;../images/Film-3.jpg&quot;)">3</div>
+             <div class="trending-card" style="background-image: url(&quot;../images/Film-4.jpg&quot;)">4</div>
+             <div class="trending-card" style="background-image: url(&quot;../images/Film-5.jpg&quot;)">5</div>
+             <div class="trending-card" style="background-image: url(&quot;../images/Film-6.png&quot;)">6</div>
+             <div class="trending-card" style="background-image: url(&quot;../images/Film-7.jpg&quot;)">7</div>
+             <div class="trending-card"style="background-image: url(&quot;../images/Film-17.jpg&quot;)">8</div>
+             <div class="trending-card"style="background-image: url(&quot;../images/Film-16.jpg&quot;)">9</div>
+             <div class="trending-card"style="background-image: url(&quot;../images/Film-15.png&quot;)">10</div>
+      </div>
+
+      <button class="nav-btn next-btn" onclick="scrollRow(1)">&#10094;</button>
+      
+    </div>
+    <!-- Films -->
+    <section class="new-films">
+
+      <!-- ********************************** -->
+      <hr style="border: 3px solid rgb(252, 0, 252)" />
+
+      <strong
+        ><h4 class="new-film-desc-title">آخرین فیلم های امریکایی</h4></strong
+      >
+      <div class="boxes">
+        <div class="film-box film-box1">
+          <div class="img-box">
+            <img src="../images/Film-2.jpg" alt="film-2" />
+            <a
+              href="https://www.youtube.com/watch?v=K4A5w1_oD3g&list=RDK4A5w1_oD3g&start_radio=1&pp=oAcB"
+              ><i class="fa-solid fa-play"></i
+            ></a>
+          </div>
+          <div class="film-desc-box">
+            <h3 class="Film-title">عنوان فیلم</h3>
+            <div class="film-desc">
+              <span>مشاهده توضیحات فیلم</span>
+              <span class="arrow">⌄</span>
+            </div>
+
+            <div class="film-info">
+              یک فیلم ماجراجویی و علمی‌تخیلی درباره گروهی از کاوشگران است که
+              برای کشف یک سیگنال مرموز، سفری خطرناک را آغاز می‌کنند.
+            </div>
+            <button class="play-btn">تماشا</button>
+          </div>
+        </div>
+
+        <div class="film-box film-box2">
+          <div class="img-box">
+            <img src="../images/Film-3.jpg" alt="film-3" />
+            <a href="./videos/film.mp4"><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="film-desc-box">
+            <h3 class="Film-title">عنوان فیلم</h3>
+            <div class="film-desc">
+              <span>مشاهده توضیحات فیلم</span>
+              <span class="arrow">⌄</span>
+            </div>
+
+            <div class="film-info">
+              یک فیلم ماجراجویی و علمی‌تخیلی درباره گروهی از کاوشگران است که
+              برای کشف یک سیگنال مرموز، سفری خطرناک را آغاز می‌کنند.
+            </div>
+            <button class="play-btn">تماشا</button>
+          </div>
+        </div>
+
+        <div class="film-box film-box3">
+          <div class="img-box">
+            <img src="../images/Film-4.jpg" alt="film-4" />
+            <a href=""><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="film-desc-box">
+            <h3 class="Film-title">عنوان فیلم</h3>
+            <div class="film-desc">
+              <span>مشاهده توضیحات فیلم</span>
+              <span class="arrow">⌄</span>
+            </div>
+
+            <div class="film-info">
+              یک فیلم ماجراجویی و علمی‌تخیلی درباره گروهی از کاوشگران است که
+              برای کشف یک سیگنال مرموز، سفری خطرناک را آغاز می‌کنند.
+            </div>
+            <button class="play-btn">تماشا</button>
+          </div>
+        </div>
+
+        <div class="film-box film-box4">
+          <div class="img-box">
+            <img class="new-film-img" src="../images/Film-5.jpg" alt="film-5" />
+            <a href=""><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="film-desc-box">
+            <h3 class="Film-title">عنوان فیلم</h3>
+            <div class="film-desc">
+              <span>مشاهده توضیحات فیلم</span>
+              <span class="arrow">⌄</span>
+            </div>
+
+            <div class="film-info">
+              یک فیلم ماجراجویی و علمی‌تخیلی درباره گروهی از کاوشگران است که
+              برای کشف یک سیگنال مرموز، سفری خطرناک را آغاز می‌کنند.
+            </div>
+            <button class="play-btn">تماشا</button>
+          </div>
+        </div>
+      </div>
+      
+      <hr style="border: 3px solid rgb(252, 0, 252)" />
+      <strong
+        ><h4 class="new-film-desc-title">آخرین فیلم های اروپایی</h4></strong
+      >
+
+      <div class="boxes">
+        <div class="film-box film-box5">
+          <div class="img-box">
+            <img src="../images/Film-6.png" alt="film-6" />
+            <a href=""><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="film-desc-box">
+            <h3 class="Film-title">عنوان فیلم</h3>
+            <div class="film-desc">
+              <span>مشاهده توضیحات فیلم</span>
+              <span class="arrow">⌄</span>
+            </div>
+
+            <div class="film-info">
+              یک فیلم ماجراجویی و علمی‌تخیلی درباره گروهی از کاوشگران است که
+              برای کشف یک سیگنال مرموز، سفری خطرناک را آغاز می‌کنند.
+            </div>
+            <button class="play-btn">تماشا</button>
+          </div>
+        </div>
+
+        <div class="film-box film-box6">
+          <div class="img-box">
+            <img src="../images/Film-7.jpg" alt="film-7" />
+            <a href=""><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="film-desc-box">
+            <h3 class="Film-title">عنوان فیلم</h3>
+            <div class="film-desc">
+              <span>مشاهده توضیحات فیلم</span>
+              <span class="arrow">⌄</span>
+            </div>
+
+            <div class="film-info">
+              یک فیلم ماجراجویی و علمی‌تخیلی درباره گروهی از کاوشگران است که
+              برای کشف یک سیگنال مرموز، سفری خطرناک را آغاز می‌کنند.
+            </div>
+            <button class="play-btn">تماشا</button>
+          </div>
+        </div>
+        <div class="film-box film-box1">
+          <div class="img-box">
+            <img src="../images/Film-8.jpg" alt="film-8" />
+            <a href=""><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="film-desc-box">
+            <h3 class="Film-title">عنوان فیلم</h3>
+            <div class="film-desc">
+              <span>مشاهده توضیحات فیلم</span>
+              <span class="arrow">⌄</span>
+            </div>
+
+            <div class="film-info">
+              یک فیلم ماجراجویی و علمی‌تخیلی درباره گروهی از کاوشگران است که
+              برای کشف یک سیگنال مرموز، سفری خطرناک را آغاز می‌کنند.
+            </div>
+            <button class="play-btn">تماشا</button>
+          </div>
+        </div>
+
+        <div class="film-box film-box4">
+          <div class="img-box">
+            <img
+              class="new-film-img"
+              src="../images/Film-11.jpg"
+              alt="film-11"
+            />
+            <a href=""><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="film-desc-box">
+            <h3 class="Film-title">عنوان فیلم</h3>
+            <div class="film-desc">
+              <span>مشاهده توضیحات فیلم</span>
+              <span class="arrow">⌄</span>
+            </div>
+
+            <div class="film-info">
+              یک فیلم ماجراجویی و علمی‌تخیلی درباره گروهی از کاوشگران است که
+              برای کشف یک سیگنال مرموز، سفری خطرناک را آغاز می‌کنند.
+            </div>
+            <button class="play-btn">تماشا</button>
+          </div>
+        </div>
+      </div>
+      <hr style="border: 3px solid rgb(252, 0, 252)" />
+
+      <strong><h4 class="new-film-desc-title">آخرین فیلم های اکشن</h4></strong>
+
+      <div class="boxes">
+        <div class="film-box film-box5">
+          <div class="img-box">
+            <img src="../images/Film-6.png" alt="film-6" />
+            <a href=""><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="film-desc-box">
+            <h3 class="Film-title">عنوان فیلم</h3>
+            <div class="film-desc">
+              <span>مشاهده توضیحات فیلم</span>
+              <span class="arrow">⌄</span>
+            </div>
+
+            <div class="film-info">
+              یک فیلم ماجراجویی و علمی‌تخیلی درباره گروهی از کاوشگران است که
+              برای کشف یک سیگنال مرموز، سفری خطرناک را آغاز می‌کنند.
+            </div>
+            <button class="play-btn">تماشا</button>
+          </div>
+        </div>
+
+        <div class="film-box film-box6">
+          <div class="img-box">
+            <img src="../images/Film-7.jpg" alt="film-7" />
+            <a href=""><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="film-desc-box">
+            <h3 class="Film-title">عنوان فیلم</h3>
+            <div class="film-desc">
+              <span>مشاهده توضیحات فیلم</span>
+              <span class="arrow">⌄</span>
+            </div>
+
+            <div class="film-info">
+              یک فیلم ماجراجویی و علمی‌تخیلی درباره گروهی از کاوشگران است که
+              برای کشف یک سیگنال مرموز، سفری خطرناک را آغاز می‌کنند.
+            </div>
+            <button class="play-btn">تماشا</button>
+          </div>
+        </div>
+        <div class="film-box film-box1">
+          <div class="img-box">
+            <img src="../images/Film-8.jpg" alt="film-8" />
+            <a href=""><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="film-desc-box">
+            <h3 class="Film-title">عنوان فیلم</h3>
+            <div class="film-desc">
+              <span>مشاهده توضیحات فیلم</span>
+              <span class="arrow">⌄</span>
+            </div>
+
+            <div class="film-info">
+              یک فیلم ماجراجویی و علمی‌تخیلی درباره گروهی از کاوشگران است که
+              برای کشف یک سیگنال مرموز، سفری خطرناک را آغاز می‌کنند.
+            </div>
+            <button class="play-btn">تماشا</button>
+          </div>
+        </div>
+
+        <div class="film-box film-box3">
+          <div class="img-box">
+            <img src="../images/Film-10.jpg" alt="film-10" />
+            <a href=""><i class="fa-solid fa-play"></i></a>
+          </div>
+          <div class="film-desc-box">
+            <h3 class="Film-title">عنوان فیلم</h3>
+            <div class="film-desc">
+              <span>مشاهده توضیحات فیلم</span>
+              <span class="arrow">⌄</span>
+            </div>
+
+            <div class="film-info">
+              یک فیلم ماجراجویی و علمی‌تخیلی درباره گروهی از کاوشگران است که
+              برای کشف یک سیگنال مرموز، سفری خطرناک را آغاز می‌کنند.
+            </div>
+            <button class="play-btn">تماشا</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER SECTION -->
+    <footer>گنجینه سینما 2026&copy;</footer>
+    <!-- Script -->
+    <script src="../javascript/app.js"></script>
+  </body>
+</html>

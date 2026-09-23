@@ -1,0 +1,69 @@
+.trending-container {
+  background: var(--general-color);
+  padding: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  position: relative;
+  max-width: 100%;
+}
+
+.trending-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.trending-row {
+  display: flex;
+  overflow: hidden;
+  gap: 10px;
+  scroll-behavior: smooth;
+}
+
+.trending-card {
+  min-width: 200px;
+  height: 280px;
+  background: #333;
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 1s ease;
+}
+.trending-card:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  font-size: 30px;
+  padding: 15px 10px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 4px;
+}
+.nav-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+.prev-btn {
+  left: 10px;
+}
+.next-btn {
+  right: 10px;
+}
